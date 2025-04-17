@@ -7,12 +7,12 @@ from email.mime.text import MIMEText
 from collections import Counter
 import logging
 
-logging.basicConfig(filename="C:\\Users\\Sritee\\Documents\\ransomware_log.txt", level=logging.INFO)
+logging.basicConfig(filename="C:\\Users\\(Folder_Name)\\Documents\\ransomware_log.txt", level=logging.INFO)
 logging.info("Script started running")
 import os
 import time
 
-MONITORED_FOLDER = "C:\\Users\\Sritee\\Documents\\MonitoredFolder"
+MONITORED_FOLDER = "C:\\Users\\(Folder_Name)\\Documents\\MonitoredFolder"
 
 def monitor_folder():
     print(f"Monitoring folder: {MONITORED_FOLDER}")
@@ -30,11 +30,11 @@ def monitor_folder():
 
 
 # Configuration
-ALERT_EMAIL = "sritee97@gmail.com"
-EMAIL_PASSWORD = "ABCd1234@"  # Use App Passwords for security
+ALERT_EMAIL = "Enter your email"
+EMAIL_PASSWORD = "Enter password"  # Use App Passwords for security
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-MONITOR_DIR = "C:\\Users\\Sritee\\Documents\\MonitoredFolder"  # Change as needed
+MONITOR_DIR = "C:\\Users\\(Folder_Name)\\Documents\\MonitoredFolder"  # Change as needed
 QUARANTINE_DIR = "C:\\Quarantine\\"  # Location to store suspicious files
 LOG_FILE = "ransomware_log.txt"
 
