@@ -16,7 +16,7 @@ Key Components:
 3. quarantine_file() – Moves detected threats to a safe quarantine directory.
 4. send_email_alert() – Notifies the user of potential ransomware activity.
 
-🔧 Setup:
+Setup:
 1. Update paths for MONITORED_FOLDER and QUARANTINE_DIR
 
 2. Use a valid email & app password in the config section for alerts
